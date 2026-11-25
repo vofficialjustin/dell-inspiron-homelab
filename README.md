@@ -39,12 +39,12 @@ Throughout this project, I will document hardware specifications, system install
 - [x] BIOS configuration inspection
 - [x] Windows hardware inventory
 - [x] Initial hard drive health check
-- [ ] Physical hardware inspection
-- [ ] Internal cleaning and maintenance
-- [ ] Detailed hard drive health assessment
-- [ ] Linux distribution selection
-- [ ] Bootable USB preparation
-- [ ] Linux installation
+- [x] Physical hardware inspection
+- [x] Internal cleaning and maintenance
+- [x] Detailed hard drive health assessment
+- [x] Linux distribution selection
+- [x] Bootable USB preparation
+- [x] Linux installation
 - [ ] Network configuration
 - [ ] SSH remote access
 - [ ] Server security configuration

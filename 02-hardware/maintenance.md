@@ -50,8 +50,8 @@ Inspect and clean the Dell Inspiron 531 before installing Linux.
 
 ### Photos
 
-- Before cleaning: ../images/before-cleaning.jpeg
-- After cleaning: ../images/after-cleaning.jpeg
+- ![Before cleaning:](../images/before-cleaning.jpeg)
+- ![After cleaning:](../images/after-cleaning.jpeg)
 
 ### Issues Encountered
 

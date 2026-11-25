@@ -228,16 +228,16 @@ Final suitability depends on the results of physical inspection, storage diagnos
 
 ## 10. Next Steps
 
-- [ ] Open the computer and inspect internal components.
-- [ ] Identify the number and capacity of RAM sticks.
-- [ ] Inspect the motherboard and available expansion slots.
-- [ ] Clean dust from fans, vents, and internal components.
-- [ ] Reassemble and verify successful startup.
-- [ ] Prepare a compatible Linux installation USB.
-- [ ] Perform detailed hard drive diagnostics.
-- [ ] Select an appropriate Linux distribution.
-- [ ] Confirm backups and replace Windows with Linux.
-- [ ] Verify Linux hardware and network compatibility.
+- [x] Open the computer and inspect internal components.
+- [x] Identify the number and capacity of RAM sticks.
+- [x] Inspect the motherboard and available expansion slots.
+- [x] Clean dust from fans, vents, and internal components.
+- [x] Reassemble and verify successful startup.
+- [x] Prepare a compatible Linux installation USB.
+- [x] Perform detailed hard drive diagnostics.
+- [x] Select an appropriate Linux distribution.
+- [x] Confirm backups and replace Windows with Linux.
+- [x] Verify Linux hardware and network compatibility.
 
 ## 11. Assessment Status
 
@@ -253,4 +253,27 @@ Final suitability depends on the results of physical inspection, storage diagnos
 
 **Initial assessment completed:** November 22, 2026
 
-**Final hardware assessment:** Pending
+## Final Hardware Assessment
+
+Following the initial inspection, hardware identification, and internal cleaning, the Dell Inspiron 531 successfully powered on and booted into Debian 13.
+
+The existing hardware is sufficient for lightweight server workloads, including Linux administration, networking, remote access, and basic self-hosting.
+
+However, the system has several limitations:
+
+- 2 GB of RAM limits multitasking and virtualization capabilities.
+- The aging dual-core processor limits computational performance.
+- The mechanical hard drive may present long-term reliability concerns.
+- Legacy hardware may limit compatibility with modern software.
+
+### Potential Future Upgrades
+
+- Increase RAM capacity.
+- Replace the mechanical hard drive with a SATA SSD.
+- Enable hardware virtualization if needed.
+
+### Final Status
+
+**Operational — suitable for lightweight home lab workloads.**
+
+No hardware upgrades are immediately required to begin learning Linux system administration. Further hardware health and performance testing will be conducted as the project progresses.

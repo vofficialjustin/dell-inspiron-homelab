@@ -42,6 +42,53 @@ MBR was selected for compatibility with the Dell Inspiron 531's legacy BIOS.
 5. Downloaded the required Syslinux bootloader files.
 6. Created the bootable installation media.
 
-## Operating System Installation
+## Debian Installation
 
-Pending.
+### Installation Configuration
+
+| Configuration | Value |
+|---|---|
+| Operating System | Debian 13 |
+| Architecture | AMD64 (64-bit) |
+| Installation Method | Bootable USB |
+| Hostname | dell-homelab |
+| Firmware | Legacy BIOS |
+| Partition Table | MBR |
+| Filesystem | ext4 |
+| Swap | Enabled |
+| Package Mirror | deb.debian.org |
+| Bootloader | GRUB |
+| Desktop Environment | None |
+
+### Installation Procedure
+
+1. Connected the Ethernet cable and bootable USB.
+2. Booted into the Debian installer using USB-HDD0.
+3. Configured the hostname and user account.
+4. Configured disk partitioning using ext4 and swap.
+5. Replaced the existing Windows 7 installation.
+6. Configured the Debian package manager.
+7. Selected SSH server and standard system utilities.
+8. Installed the GRUB bootloader.
+9. Rebooted into Debian.
+10. Successfully logged into the system.
+
+### Design Decisions
+
+A minimal Debian installation without a graphical desktop environment was chosen to reduce resource consumption due to the system's limited 2 GB of RAM.
+
+SSH was selected to allow remote server administration from another computer.
+
+### Results
+
+Debian successfully booted from the internal hard drive, and the user was able to log into the command-line interface.
+
+![Successful Debian Boot](../images/debian-first-boot.jpeg)
+
+### Next Steps
+
+- [ ] Verify system information.
+- [ ] Verify hardware recognition.
+- [ ] Test network connectivity.
+- [ ] Update system packages.
+- [ ] Verify SSH service and remote access.
